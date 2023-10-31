@@ -29,7 +29,7 @@ function Banner() {
         className='text-base md:max-w-[650px] text-textDark font-medium'
         >
             
-            I am a web developer with 1+years of experience in react. I have a
+            I am a web developer with 2+years of experience in react. I have a
             strong foundation in front-end & back-end development and skilled
             in creating user-friendly and web responsive applications using react
             and its ecosystem.
