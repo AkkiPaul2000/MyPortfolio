@@ -34,7 +34,6 @@ function Navbar() {
           <Link href="#About"
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
-          onClick={handleScroll}
           >
             
               <motion.li
@@ -48,7 +47,6 @@ function Navbar() {
           <Link href="#Experience"
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
-          onClick={handleScroll}
           >
             
               <motion.li
@@ -62,7 +60,6 @@ function Navbar() {
           <Link href="#Projects"
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
-          onClick={handleScroll}
           >
             
               <motion.li
@@ -76,7 +73,6 @@ function Navbar() {
           <Link href="#Contact"
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
-          onClick={handleScroll}
           >
             
               <motion.li

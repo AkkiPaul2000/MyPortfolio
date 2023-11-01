@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle';
 
 function Contact() {
   return (
-          <section id='Contact' className='  max-w-container mx-auto py-10 xl:py-32
+          <section id='Contact' className='min-h-screen max-w-container mx-auto py-10 xl:py-32
           flex flex-col gap-4 items-center justify-center'>
              <p className='font-titleFont text-lg text-textGreen
              font-semibold flex items-center tracking-wide '>

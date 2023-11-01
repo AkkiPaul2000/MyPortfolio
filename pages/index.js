@@ -20,9 +20,9 @@ export default function Home() {
       <Navbar/>
       <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
         <motion.div
-        initial={{y:0,opacity:0}}
-        animate={{y:10,opacity:1}}
-        transition={{duration:0.5,delay:1.5}}
+        initial={{y:-100,opacity:0}}
+        animate={{y:0,opacity:1}}
+        transition={{duration:0.7,delay:1.5}}
         className='hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0'>
           <LeftSide/>
         </motion.div>
@@ -35,9 +35,9 @@ export default function Home() {
           <Footer/>
         </div>
         <motion.div
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{delay:1.5}}
+        initial={{y:-100,opacity:0}}
+        animate={{y:0,opacity:1}}
+        transition={{duration:0.7,delay:1.5}}
         className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0'>
           <RightSide/>
         </motion.div>
