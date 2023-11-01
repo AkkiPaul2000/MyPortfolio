@@ -1,11 +1,13 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import Link from 'next/link'
+import button from 'next/link'
 import React from 'react'
 
 function Navbar() {
-  const handleScroll = (e) => {
-    e.preventDefault();
+  
+  const handleScroll = (ref) => {
+    const anchor = document.querySelector(ref)
+    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
   return (
     <div
@@ -21,7 +23,8 @@ function Navbar() {
         </motion.div>
       <div className='hidden mdl:inline-flex items-center gap-7'>
         <ul className='flex text-[13px] gap-7'>
-          <Link href="#home"
+          <button 
+          onClick={()=>handleScroll("#Home")}
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
           >
@@ -30,11 +33,14 @@ function Navbar() {
           animate={{y:0,opacity:1}}
           transition={{duration:0.3}}
           >Home
-          </motion.li></Link>
-          <Link href="#About"
+          </motion.li></button>
+          <button
+          // href="#About"
+          onClick={()=>handleScroll("#About")}
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
           >
+        
             
               <motion.li
               initial={{y:-10,opacity:0}}
@@ -43,8 +49,10 @@ function Navbar() {
               ><span>01.</span> About
               </motion.li>
             
-          </Link>
-          <Link href="#Experience"
+          </button>
+          <button 
+          onClick={()=>handleScroll("#Experience")}
+
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
           >
@@ -56,12 +64,14 @@ function Navbar() {
               ><span>02.</span> Experience
               </motion.li>
             
-          </Link>
-          <Link href="#Projects"
+          </button>
+          <button
+          onClick={()=>handleScroll("#Projects")}
+
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
           >
-            
+        
               <motion.li
               initial={{y:-10,opacity:0}}
               animate={{y:0,opacity:1}}
@@ -69,8 +79,9 @@ function Navbar() {
               ><span>03.</span> Projects
               </motion.li>
             
-          </Link>
-          <Link href="#Contact"
+          </button>
+          <button
+          onClick={()=>handleScroll("#Contact")}
           className='flex items-center gap-1 font-medium text-textDark
           hover:text-textGreen cursor-pointer duration-300 nav-link'
           >
@@ -82,7 +93,7 @@ function Navbar() {
               ><span>04.</span> Contacts
               </motion.li>
             
-          </Link>
+          </button>
         </ul>
         <a href='/Resume.pdf' target="_blank">
         <motion.button
