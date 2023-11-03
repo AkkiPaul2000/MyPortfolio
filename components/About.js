@@ -8,7 +8,7 @@ function About() {
   return (
     <section
     id="About"
-    className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8'
+    className='max-w-containerSmall min-h-screen mx-auto py-10 lgl:py-32 flex flex-col gap-8'
     >
         <SectionTitle title="About me" titleNo="01" />
         <div className='flex flex-col lgl:flex-row gap-16'>

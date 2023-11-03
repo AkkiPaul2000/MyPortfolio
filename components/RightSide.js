@@ -7,7 +7,7 @@ function RightSide() {
         <a href='mailto:skypaul2000@gmail.com'>
           <p className='text-sm rotate-90 w-48 tracking-wide text-textGreen'>email me</p>
         </a>
-        <span className='w-[2px] h-32 bg-white inline-flex'></span>
+        <span className='w-[2px] h-52 bg-white inline-flex'></span>
     </div>
   )
 }
