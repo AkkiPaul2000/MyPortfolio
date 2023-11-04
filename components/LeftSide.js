@@ -1,6 +1,5 @@
 import React from 'react'
-import {SlSocialGithub,SlSocialFacebook} from 'react-icons/sl'
-import {CiLinkedin,CiInstagram} from 'react-icons/Ci'
+import {SlSocialGithub,SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin} from 'react-icons/sl'
 
 
 function LeftSide() {
@@ -21,7 +20,7 @@ function LeftSide() {
           items-center justify-center hover:text-textGreen cursor-pointer
           hover:-translate-y-2 transition-all duration-300
           '>
-            <CiLinkedin />
+            <SlSocialLinkedin />
           </span>
         </a>
         <a href='https://www.facebook.com/akkipaul2000' target='_blank'>
@@ -37,8 +36,7 @@ function LeftSide() {
           items-center justify-center hover:text-textGreen cursor-pointer
           hover:-translate-y-2 transition-all duration-300
           '>
-            <CiInstagram />
-          
+            <SlSocialInstagram/>
           </span>
         </a>
       </div>

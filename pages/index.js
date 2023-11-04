@@ -10,7 +10,7 @@ import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Contact from './../components/Contact';
 import Footer from './../components/Footer';
-import SecAnimate from '../components/utils/secAnimate';
+import SecAnimate from '@/components/utils/SecAnimate';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -18,8 +18,10 @@ export default function Home() {
   // console.log("yo2")
   return (
     <main
-    className="font-bodyFont w-full h-screen bg-bodyColor text-textLight
-    overflow-x-hidden overflow-y-scroll scrollbar scrollbar-thumb-textDark scrollbar-track-textDark/60 ">  
+    className="font-bodyFont w-full h-screen  text-textLight
+    overflow-x-hidden overflow-y-scroll scrollbar scrollbar-thumb-textDark scrollbar-track-textDark/60 "
+    style={{background:"linear-gradient(to bottom, #000080, #007FFF)"}}
+    >  
       <Navbar/>
       <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
         <motion.div
