@@ -6,6 +6,7 @@ function Banner() {
     <section id="Home"
     className='min-h-screen max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col 
     gap-4 lgl:gap-8 mdl:px-10 xl:px-4'
+    style={{height:'101vh'}}
     
     >
         <motion.h3

@@ -2,6 +2,7 @@ import React from 'react'
 import SectionTitle from './SectionTitle';
 import Image from 'next/image'
 import { AiFillThunderbolt } from "react-icons/ai";
+import {motion} from 'framer-motion'
 
 
 function About() {
@@ -10,6 +11,7 @@ function About() {
     id="About"
     className='max-w-containerSmall min-h-screen mx-auto py-10 lgl:py-32 flex flex-col gap-8'
     >
+      
         <SectionTitle title="About me" titleNo="01" />
         <div className='flex flex-col lgl:flex-row gap-16'>
           <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4 '>
