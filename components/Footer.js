@@ -1,8 +1,5 @@
 import React from 'react'
-// import {TbBrandGithub} from 'react-icons/tb';
-// import { SlSocialYoutube, SlSocialFacebook,SlSocialInstagram} from 'react-icons/sl';
-import {SlSocialGithub,SlSocialFacebook} from 'react-icons/sl'
-import {CiLinkedin,CiInstagram} from 'react-icons/Ci'
+import {SlSocialGithub,SlSocialFacebook, SlSocialLinkedin, SlSocialInstagram} from 'react-icons/sl'
 
 
 function Footer() {
@@ -17,15 +14,15 @@ function Footer() {
             <SlSocialGithub />
           </span>
         </a>
-        <a href='https://github.com/AkkiPaul2000' target='_blank'>
+        <a href='https://www.linkedin.com/in/akash-paul-6a715a1b2/' target='_blank'>
           <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex
           items-center justify-center hover:text-textGreen cursor-pointer
           hover:-translate-y-2 transition-all duration-300
           '>
-            <CiLinkedin />
+            <SlSocialLinkedin />
           </span>
         </a>
-        <a href='https://github.com/AkkiPaul2000' target='_blank'>
+        <a href='https://www.facebook.com/akkipaul2000' target='_blank'>
           <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex
           items-center justify-center hover:text-textGreen cursor-pointer
           hover:-translate-y-2 transition-all duration-300
@@ -33,12 +30,12 @@ function Footer() {
             <SlSocialFacebook />
           </span>
         </a>
-        <a href='https://github.com/AkkiPaul2000' target='_blank'>
+        <a href='https://www.instagram.com/__akki__2000/' target='_blank'>
           <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex
           items-center justify-center hover:text-textGreen cursor-pointer
           hover:-translate-y-2 transition-all duration-300
           '>
-            <CiInstagram />
+            <SlSocialInstagram />
           
           </span>
         </a>
