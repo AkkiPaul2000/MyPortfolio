@@ -18,7 +18,7 @@ export default function Home() {
   // console.log("yo2")
   return (
     <main
-    className="font-bodyFont w-full h-screen  text-textLight
+    className="font-bodyFont w-full h-screen  text-textLight 
     overflow-x-hidden overflow-y-scroll scrollbar scrollbar-thumb-textDark scrollbar-track-textDark/60 "
     style={{background:"linear-gradient(to bottom, #000080, #007FFF)"}}
     >  
