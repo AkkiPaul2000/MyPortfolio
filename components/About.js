@@ -27,7 +27,7 @@ function About() {
               I had the privilege of working as a project dev 
               in a multinational company also known as Wipro.
               <span className='text-textGreen'>
-                 A MNC's Employee, A Curious Explorer and a Passionate Developer.
+                 A MNC&apos; Employee, A Curious Explorer and a Passionate Developer.
               </span>
               
             </p>
