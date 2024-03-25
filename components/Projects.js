@@ -7,10 +7,10 @@ function Projects() {
       <SectionTitle title="Where I have built" titleNo="03" />
       <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
         <div className='flex flex-col xl:flex-row gap-6'>
-            <a href="#" className='w-full xl:w-1/2 h-auto relative group '
+            <a href="https://crypto-xplorers-port.vercel.app/" className='w-full xl:w-1/2 h-auto relative group '
             target='_blank'>
               <div>
-                <img src="/cryptoProject.png" alt="CryptoProject" title=""  layout="responsive" objectFit="contain"  
+                <img src="/cryptoProject.png" alt="CryptoXplorers" title=""  layout="responsive" objectFit="contain"  
                 className= 'w-full h-full object-contain'/>
               </div>
             </a>
@@ -21,9 +21,8 @@ function Projects() {
           '>Featured Project</p>
           <h3 className='text-2xl font-bold'>CryptoXplorers</h3>
           <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-            An <span className='text-textGreen'> Crypto Analytic website</span> under contruction till now.
-            It the statistic website to show all the current crypto coins 
-            current market state.
+            An <span className='text-textGreen'> Crypto Analytic website</span> for the cryptic investors
+            to get a breif statiscal visual understanding about their preffered coin and other coins in the market right now.
           </p>
           <ul className='text-xs md:text-sm font-titleFont tracking-wide
           flex gap-2 md:gap-5 justify-between text-textDark'>
@@ -44,11 +43,10 @@ function Projects() {
           <p className='font-titleFont text-textGreen
           text-sm tracking-wide
           '>Featured Project</p>
-          <h3 className='text-2xl font-bold'>CryptoXplorers</h3>
-          <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16'>
-            An <span className='text-textGreen'> Crypto Analytic website</span> under contruction till now.
-            It the statistic website to show all the current crypto coins 
-            current market state.
+           <h3 className='text-2xl font-bold'>BookStore</h3>
+          <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
+            An <span className='text-textGreen'> Store Website</span> where any seller can update their items into our database
+            to display their items with breif description and quantity for their customer.
           </p>
           <ul className='text-xs md:text-sm font-titleFont tracking-wide
           flex gap-2 md:gap-5 justify-between text-textDark'>
@@ -58,10 +56,10 @@ function Projects() {
             <li>ChartJS</li>
           </ul>
         </div>
-            <a href="#" className='w-full xl:w-1/2 h-auto relative group '
+            <a href="https://book-store-tawny.vercel.app/" className='w-full xl:w-1/2 h-auto relative group '
             target='_blank'>
               <div>
-                <img src="/cryptoProject.png" alt="CryptoProject" title=""  layout="responsive" objectFit="contain"  
+                <img src="/BookStore.PNG" alt="BookStore" title=""  layout="responsive" objectFit="contain"  
                 className= 'w-full h-full object-contain'/>
               </div>
             </a>
@@ -69,10 +67,10 @@ function Projects() {
         </div>
         {/* Project2 Ended */}
         <div className='flex flex-col xl:flex-row gap-6'>
-            <a href="#" className='w-full xl:w-1/2 h-auto relative group '
+            <a href="https://pokedex-ten-blond.vercel.app/pokemon/1" className='w-full xl:w-1/2 h-auto relative group '
             target='_blank'>
               <div>
-                <img src="/cryptoProject.png" alt="CryptoProject" title=""  layout="responsive" objectFit="contain"  
+                <img src="/Pokedex.PNG" alt="Pokedex" title=""  layout="responsive" objectFit="contain"  
                 className= 'w-full h-full object-contain'/>
               </div>
             </a>
@@ -81,11 +79,13 @@ function Projects() {
           <p className='font-titleFont text-textGreen
           text-sm tracking-wide
           '>Featured Project</p>
-          <h3 className='text-2xl font-bold'>CryptoXplorers</h3>
+          <h3 className='text-2xl font-bold'>Pokedex</h3>
           <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-            An <span className='text-textGreen'> Crypto Analytic website</span> under contruction till now.
-            It the statistic website to show all the current crypto coins 
-            current market state.
+            A <span className='text-textGreen'> Poket monster analytical website</span> to get a breif description
+            and their stats to compare it with other monsters as well.
+            
+            <span style={{color:'red',display:'inline-block',width:"100%"}}>The website is heavy asset loaded so on deployment it might crash on loading details 
+            Follow <a href='https://github.com/AkkiPaul2000/pokedex' style={{color:'blue'}}>HERE</a> to got to its github repo.</span>
           </p>
           <ul className='text-xs md:text-sm font-titleFont tracking-wide
           flex gap-2 md:gap-5 justify-between text-textDark'>

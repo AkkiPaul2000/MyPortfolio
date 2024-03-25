@@ -17,25 +17,17 @@ function Qdesq() {
         <ul className='mt-6 flex flex-col gap-3'>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Write modern,effective,breif maintainable codes for my internal projects and clients
+            Learned to develop test plans, create and execute test
+            cases, find and log bugs
           </li>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Work with a variety of different languages,platforms,frameworks and content
-            management systems such as JavaScript,TypeScript,NextJS,React
+            Built several test cases for several individual components and apis and used to run daily 
+            tests with the help of a auto selenium based testing software like test-project 
           </li>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Communicate with multi disciplinary teams of engineers designers,
-            producers and client on a daily basis.
-          </li>
-          <li className='text-base flex gap-2 text-textDark'>
-            <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Used to work on UI..............
-          </li>
-          <li className='text-base flex gap-2 text-textDark'>
-            <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Used to work on UI..............
+            Gained immense experience on teamwork and collaboration skills.
           </li>
         </ul>
     </motion.div>

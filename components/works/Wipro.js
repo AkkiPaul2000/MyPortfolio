@@ -17,25 +17,35 @@ function Wipro() {
         <ul className='mt-6 flex flex-col gap-3'>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Write modern,effective,breif maintainable codes for my internal projects and clients
+            Designed and developed user interface components of an
+            analytical website using React.js.
           </li>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Work with a variety of different languages,platforms,frameworks and content
-            management systems such as JavaScript,TypeScript,NextJS,React
+            Implemented several libraries like Chart JS,Framer Js and
+            Material UI or ShadCN to enhance user Experience.
           </li>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Communicate with multi disciplinary teams of engineers designers,
-            producers and client on a daily basis.
+            Built reusable components and front-end libraries for future use.
           </li>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Used to work on UI..............
+            Created lots of customized hooks for api calls.
           </li>
           <li className='text-base flex gap-2 text-textDark'>
             <span className='text-textGreen mt-1'><TiArrowForward/></span>
-            Used to work on UI..............
+            Used firebase as an cloud messaging platform to notify client apps.
+          </li>
+          <li className='text-base flex gap-2 text-textDark'>
+            <span className='text-textGreen mt-1'><TiArrowForward/></span>
+            Paired with other developers to fix and sort out different
+            bugs and unimportant rerenders throughout the website.
+          </li>
+          <li className='text-base flex gap-2 text-textDark'>
+            <span className='text-textGreen mt-1'><TiArrowForward/></span>
+            Learned SSR framework like NextJS , to reduce api response
+            time and increase the Seo as well as the efficiency of the project
           </li>
         </ul>
     </motion.div>
