@@ -26,7 +26,7 @@ function SecAnimate({children}) {
         }}
         initial="hid"
         animate={entrance}
-        transition={{duration:0.7,delay:1.5}}
+        transition={{duration:0.7,delay:1}}
         >
             {children}
             <motion.div 

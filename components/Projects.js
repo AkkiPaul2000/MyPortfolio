@@ -15,7 +15,7 @@ function Projects() {
               </div>
             </a>
         <div className='w-full xl:w-1/2 flex flex-col lgl:justify-between gap-6 
-        items-end text-right xl:-ml-16 z-10 '>
+        items-end text-right xl:-mlr16 z-10 '>
           <p className='font-titleFont text-textGreen
           text-sm tracking-wide
           '>Featured Project</p>
@@ -37,12 +37,11 @@ function Projects() {
 
         {/* Project1 ended */}
 
-        <div className='flex flex-col xl:flex-row gap-6'>
-        <div className='w-full xl:w-1/2 flex flex-col lgl:justify-between gap-6 
-        items-end text-left z-10 '>
+        <div className='flex flex-col xl:flex-row gap-6 ' >
+        <div className='w-full xl:w-1/2 flex flex-col lgl:justify-between gap-6 items-start 
+        text-left z-8 items-start text-left z-10  '>
           <p className='font-titleFont text-textGreen
-          text-sm tracking-wide
-          '>Featured Project</p>
+          text-sm tracking-wide'>Featured Project</p>
            <h3 className='text-2xl font-bold'>BookStore</h3>
           <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
             An <span className='text-textGreen'> Store Website</span> where any seller can update their items into our database
@@ -58,15 +57,43 @@ function Projects() {
         </div>
             <a href="https://book-store-tawny.vercel.app/" className='w-full xl:w-1/2 h-auto relative group '
             target='_blank'>
-              <div>
-                <img src="/BookStore.PNG" alt="BookStore" title=""  layout="responsive" objectFit="contain"  
-                className= 'w-full h-full object-contain'/>
+              <div >
+                <img src="/BookStore.PNG" alt="BookStore" title="" layout="responsive" objectFit="contain"  
+                 className= 'w-full h-full object-contain mr-16' />
               </div>
             </a>
         
         </div>
+        {/* Test */}
+        {/* <div className='flex flex-col xl:flex-row gap-6 '>
+        <div className='w-full xl:w-1/2 flex flex-col lgl:justify-between gap-6 
+        items-start text-left xl:-mr-16 z-10 '>
+           <p className='font-titleFont text-textGreen
+          text-sm tracking-wide'>Featured Project</p>
+           <h3 className='text-2xl font-bold'>BookStore</h3>
+          <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
+            An <span className='text-textGreen'> Store Website</span> where any seller can update their items into our database
+            to display their items with breif description and quantity for their customer.
+          </p>
+          <ul className='text-xs md:text-sm font-titleFont tracking-wide
+          flex gap-2 md:gap-5 justify-between text-textDark'>
+          <li>JavaScript</li>
+            <li>React</li>
+            <li>Material UI</li>
+            <li>ChartJS</li>
+          </ul>
+        </div>
+        <a href="https://book-store-tawny.vercel.app/" className='w-full xl:w-1/2 h-auto relative group '
+            target='_blank'>
+              <div >
+                <img src="/BookStore.PNG" alt="BookStore" title="" layout="responsive" objectFit="contain"  
+                 className= 'w-full h-full object-contain mr-16' />
+              </div>
+            </a>
+        
+        </div> */}
         {/* Project2 Ended */}
-        <div className='flex flex-col xl:flex-row gap-6'>
+        <div className='flex flex-col xl:flex-row gap-6 '>
             <a href="https://pokedex-ten-blond.vercel.app/pokemon/1" className='w-full xl:w-1/2 h-auto relative group '
             target='_blank'>
               <div>
@@ -75,7 +102,7 @@ function Projects() {
               </div>
             </a>
         <div className='w-full xl:w-1/2 flex flex-col lgl:justify-between gap-6 
-        items-end text-right xl:-ml-16 z-10 '>
+        items-end text-right xl:-mlr16 z-10 '>
           <p className='font-titleFont text-textGreen
           text-sm tracking-wide
           '>Featured Project</p>
@@ -85,7 +112,8 @@ function Projects() {
             and their stats to compare it with other monsters as well.
             
             <span style={{color:'red',display:'inline-block',width:"100%"}}>The website is heavy asset loaded so on deployment it might crash on loading details 
-            Follow <a href='https://github.com/AkkiPaul2000/pokedex' style={{color:'blue'}}>HERE</a> to got to its github repo.</span>
+            Follow <a href="https://github.com/AkkiPaul2000/pokedex" className='w-full xl:w-1/2 h-auto relative group '
+            target='_blank' style={{color:'blue'}}>HERE</a> to got to its github repo.</span>
           </p>
           <ul className='text-xs md:text-sm font-titleFont tracking-wide
           flex gap-2 md:gap-5 justify-between text-textDark'>

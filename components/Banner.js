@@ -2,6 +2,10 @@ import React from 'react'
 import {motion} from 'framer-motion'
 
 function Banner() {
+  const handleScroll = (ref) => {
+    const anchor = document.querySelector(ref)
+    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
   return (
     <section id="Home"
     className='min-h-screen max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col 
@@ -44,7 +48,8 @@ function Banner() {
         transition={{duration:0.5,delay:0.9}}
         className='w-52 h-14 border text-sm font-titleFont  border-textGreen rounded-md text-textGreen
         tracking-wide hover:bg-hoverColor duration-300
-        '>Check out my Project!</motion.button>
+        '
+        onClick={()=>handleScroll("#Projects")}>Check out my Project!</motion.button>
     </section>
   )
 }
