@@ -3,8 +3,8 @@ import SectionTitle from './SectionTitle';
 
 function Projects() {
   return (
-    <section id='Projects' className='  max-w-container mx-auto py-24 lgl:px-20'>
-      <SectionTitle title="Where I have built" titleNo="03" />
+    <section id='Projects' className='max-w-containerSmall min-h-screen mx-auto py-10 lgl:py-32 flex flex-col gap-8'>
+      <SectionTitle title="What I have built" titleNo="03" />
       <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
         <div className='flex flex-col xl:flex-row gap-6'>
             <a href="https://crypto-xplorers-port.vercel.app/" className='w-full xl:w-1/2 h-auto relative group '
@@ -30,7 +30,7 @@ function Projects() {
             <li>React</li>
             <li>Material UI</li>
             <li>ChartJS</li>
-            
+            <li>Vercel</li> 
           </ul>
         </div>
         </div>
@@ -49,15 +49,15 @@ function Projects() {
           </p>
           <ul className='text-xs md:text-sm font-titleFont tracking-wide
           flex gap-2 md:gap-5 justify-between text-textDark'>
-          <li>JavaScript</li>
-            <li>React</li>
-            <li>Material UI</li>
-            <li>ChartJS</li>
+          <li>Next JS</li>
+            
+            <li>TailWind CSS</li>
+            <li>FireStore</li>
           </ul>
         </div>
-            <a href="https://book-store-tawny.vercel.app/" className='w-full xl:w-1/2 h-auto relative group '
+            <a href="https://book-store-tawny.vercel.app/" className='w-full xl:w-1/2 h-auto relative group  mt-[30px]'
             target='_blank'>
-              <div >
+              <div  >
                 <img src="/BookStore.PNG" alt="BookStore" title="" layout="responsive" objectFit="contain"  
                  className= 'w-full h-full object-contain mr-16' />
               </div>
@@ -93,8 +93,8 @@ function Projects() {
         
         </div> */}
         {/* Project2 Ended */}
-        <div className='flex flex-col xl:flex-row gap-6 '>
-            <a href="https://pokedex-ten-blond.vercel.app/pokemon/1" className='w-full xl:w-1/2 h-auto relative group '
+        <div className='flex flex-col xl:flex-row gap-6 items-center'>
+            <a href="https://pokedex-ten-blond.vercel.app/pokemon/1" className='w-full xl:w-1/2 h-auto relative group  mt-[20px] '
             target='_blank'>
               <div>
                 <img src="/Pokedex.PNG" alt="Pokedex" title=""  layout="responsive" objectFit="contain"  
@@ -117,11 +117,11 @@ function Projects() {
           </p>
           <ul className='text-xs md:text-sm font-titleFont tracking-wide
           flex gap-2 md:gap-5 justify-between text-textDark'>
-          <li>JavaScript</li>
-            <li>React</li>
-            <li>Material UI</li>
-            <li>ChartJS</li>
-            
+          
+            <li>TypeScript</li>
+            <li>SCSS</li>
+            <li>Redux</li>
+            <li>FireStore</li>
           </ul>
         </div>
         </div>
